@@ -1,17 +1,32 @@
 import { motion } from "framer-motion";
 import "./App.css";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_3vpw4kd", "template_453hq1y", form.current, "qAkOTf0yLdKHGe64S")
+      .then(() => {
+        alert("✅ Message sent!");
+      }, (error) => {
+        alert("❌ Failed: " + error.text);
+      });
+  };
+
   return (
     <motion.section className="section card contact-section" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <div className="contact-wrap">
         <div className="contact-info">
           <h2>Contact Us</h2>
-          <p><strong>Address:</strong> 123 Main St, Suite 400, New York, NY 10001</p>
+          <p><strong>Address:</strong> 6 Caymus Street, Richmond Hill, Ontario, L4B 4G4</p>
           <p><strong>Email:</strong> info@bdrpconsulting.com</p>
-          <p><strong>Phone:</strong> (555) 123-4567</p>
+          <p><strong>Phone:</strong> (416) 301-3347</p>
         </div>
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <label htmlFor="name">Name</label>
           <input id="name" name="name" type="text" required />
 

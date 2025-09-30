@@ -15,7 +15,7 @@ export default function Home() {
         <p className="home-lead spaced">
           Our team brings deep technical knowledge and industry best practices to every engagement—ensuring secure, scalable, and future-ready outcomes.
         </p>
-        <Link className="cta home-cta" to="/contact">Click here</Link>
+        <Link className="cta home-cta" to="/contact">Let Us Help</Link>
         <div className="dashboard">
           <div className="dashboard-item">
             <div className="dashboard-value">50+</div>

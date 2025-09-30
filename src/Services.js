@@ -33,7 +33,7 @@ export default function Services() {
         <h3>Explore Our Case Studies</h3>
         <div className="dashboard case-study-dashboard-cards">
           <Link to="/services/sdwan-migration" className="dashboard-item case-link">
-            <div className="dashboard-value">SDWAN Migration</div>
+            <div className="dashboard-value">Global SDWAN Migration</div>
             <div className="dashboard-label">Global SD-WAN transformation</div>
           </Link>
           <Link to="/services/cloud-migration" className="dashboard-item case-link">

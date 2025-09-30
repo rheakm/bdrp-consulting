@@ -219,7 +219,7 @@ input, textarea {
   margin-bottom: 8px; /* Add margin below input for spacing */
   border-radius: 10px;
   border: 1px solid #334155;
-  background: var(--bg-light);
+  background: #fff;
   color: var(--text-main);
   font-size: 15px;
 }
@@ -238,7 +238,7 @@ button[type=submit] {
   border-radius: 10px;
   font-weight: 700;
   font-size: 16px;
-  color: #111;
+  color: #fff;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
 }
@@ -341,6 +341,7 @@ button[type=submit]:hover {
   padding: 16px 32px;
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(255, 106, 61, 0.12);
+  color: var(--bg-light);
 }
 
 .dashboard {
@@ -441,7 +442,7 @@ button[type=submit]:hover {
 .submenu {
   display: none;
   position: absolute;
-  background: var(--bg-header);
+  background: var(--bg-light);
   border-radius: 10px;
   margin-top: 8px;
   padding: 12px 0;
@@ -491,14 +492,14 @@ button[type=submit]:hover {
 
 /* Contact Us button stays orange */
 .nav-btn.contact-btn {
-  background: var(--accent);
+  background: #ff8800;
   color: #fff;
   padding: 12px 32px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(255, 106, 61, 0.08);
 }
 .nav-btn.contact-btn:hover {
-  background: var(--accent-hover);
+  background: #ff6600;
   color: #fff;
 }
 
@@ -512,7 +513,7 @@ button[type=submit]:hover {
   left: 0;
   top: 100%;
   min-width: 220px;
-  background: var(--bg-header);
+  background: var(--bg-light);
   border-radius: 10px;
   margin-top: 8px;
   padding: 12px 0;
@@ -588,20 +589,20 @@ button[type=submit]:hover {
 
 /* Contact Us button */
 .nav-btn.contact-btn {
-  background: var(--accent);
+  background: #ff8800;
   color: #fff;
   padding: 12px 32px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(255, 106, 61, 0.08);
 }
 .nav-btn.contact-btn:hover {
-  background: var(--accent-hover);
+  background: #ff6600;
   color: #fff;
 }
 
 /* Submenu */
 .submenu {
-  background: var(--bg-card);
+  background: var(--bg-light);
   border-radius: 10px;
   box-shadow: 0 4px 16px rgba(255,106,61,0.12);
 }
@@ -869,19 +870,6 @@ button[type=submit]:hover {
   transform: translateY(-2px) scale(1.04);
 }
 
-
-.nav-btn.contact-btn {
-  background: var(--accent);
-  color: #111;
-  padding: 12px 32px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(255, 106, 61, 0.08);
-}
-.nav-btn.contact-btn:hover {
-  background: var(--accent-hover);
-  color: #fff;
-}
-
 /* About, Services, and Contact links */
 .nav-btn {
   display: inline-block;
@@ -899,14 +887,3 @@ button[type=submit]:hover {
   color: #111;
 }
 
-.nav-btn.contact-btn {
-  background: var(--accent);
-  color: #111;
-  padding: 12px 32px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(255, 106, 61, 0.08);
-}
-.nav-btn.contact-btn:hover {
-  background: var(--accent-hover);
-  color: #fff;
-}

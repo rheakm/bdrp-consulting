@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 export default function SDWANMigration() {
   return (
     <motion.section className="section card case-study-section" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-      <h2 className="case-title">SDWAN Migration</h2>
+      <h2 className="case-title">Global SDWAN Migration</h2>
       <div className="case-flex-row">
         <div className="case-study-block case-block-large">
           <h3 className="case-block-title">Scope & Overview</h3>
           <p className="case-block-text">
-            Global SD-WAN migration for a Fortune 100 client, replacing legacy MPLS networks with a modern, cloud-based SD-WAN solution across 5000+ sites.
+            Global SD-WAN migration for a Fortune 100 client, replacing legacy MPLS networks with a modern, cloud-based SD-WAN solution across 5000+ sites globally.
           </p>
         </div>
         <div className="case-study-block case-block-large">
@@ -57,7 +57,7 @@ export default function SDWANMigration() {
             <div className="dashboard-label">Network Uptime</div>
           </motion.div>
           <motion.div className="dashboard-item" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
-            <div className="dashboard-value">6 Months</div>
+            <div className="dashboard-value">18 Months</div>
             <div className="dashboard-label">Migration Timeline</div>
           </motion.div>
         </div>

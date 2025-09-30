@@ -33,13 +33,13 @@ function Header() {
             <li className="services-dropdown">
               <Link className="nav-btn" to="/services">Services</Link>
               <ul className="submenu">
-                <li><Link to="/services/sdwan-migration">SDWAN Migration</Link></li>
+                <li><Link to="/services/sdwan-migration">Global SDWAN Migration</Link></li>
                 <li><Link to="/services/cloud-migration">Cloud Migration</Link></li>
                 <li><Link to="/services/it-process-reengineering">IT Process Re-Engineering</Link></li>
               </ul>
             </li>
             <li>
-              <Link className="nav-btn contact-btn" to="/contact">Contact Us</Link>
+              <Link className="nav-btn" to="/contact">Contact Us</Link>
             </li>
           </ul>
         </nav>
